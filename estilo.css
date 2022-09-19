@@ -1,0 +1,50 @@
+.princinpal{
+    display:flex;
+    justify-content: space-around
+}
+
+.noticia{
+    height:200px;
+    width:30%;
+    margin-top:30px;
+    
+}
+
+@media screen and (max-width: 820px){
+    h1{
+        text-align:right;
+    }
+    .princinpal{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        
+        }
+    .noticia{
+        width:45%;
+      }    
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        text-align:center;
+    }
+    .princinpal{
+        display:block;
+        }
+    .noticia{
+        width:100%;
+      }    
+}
+
+.bg-green{
+    background-color:green;
+}
+
+.bg-red{
+    background-color:red;
+}
+
+.bg-blue{
+    background-color:blue;
+}
