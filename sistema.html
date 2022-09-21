@@ -7,11 +7,18 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Bungee+Spice & family= Poppins:ital,wght@0,200;0,400;0,900;1,100;1,900 & display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="sistema.css">
 </head>
 <body>
     <nav class="navbar">
-        <a href="" class="logo">
+        <a href="" class="logo animate__animated animate__backInLeft">
             <span class="material-icons">home</span>
             LOGO
         </a>
@@ -26,12 +33,35 @@
                 <a href="">Configurações</a>
             </li>
             <li>
-                <a href="">Sair</a>
+                <a href="login.html">Sair</a>
             </li>
         </ul>
         <button class="menu-mobile">
             <span class="material-icons">menu</span>
         </button>
     </nav>
+        <h1 class="animate__animated animate__bounceInDown animate__delay-1s">Listar Produtos</h1>
+        <hr>
+       <section>
+        <div>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+
+                <label for="preco">Preço</label>
+                <input type="text" id="preco">
+
+                <label for="categoria">Preço</label>
+                <select id="categoria">
+                    <option>Informatica</option>
+                    <option>Eletronica</option>
+                    <option>Moveis</option>
+                </select>
+                
+                <label for="foto">foto</label>
+                <input type="url" id="foto">
+            </form>
+        </div>
+       </section>
 </body>
 </html>

@@ -1,3 +1,13 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdfdf;
+    height: 100%;
+}
+
+button. material-icons{
+    vartical-align: bottom;
+}
+
 .navbar{
     height:100px;
     background-color:#333333;
@@ -10,6 +20,7 @@
 .navbar .logo{
     font-size:1.8rem;
     margin-left:20px;
+    font-family: 'Bungee Spice', cursive;
 }
 
 .menu li{
@@ -29,12 +40,18 @@
 .menu-mobile{
     display:none;
 }
+
+.tabela1{
+    border: 1px solid black;
+    width:100%;
+
+}
 @media screen and (max-width:500px){
     .menu{
         display:none;
     
     }
     .menu-mobile{
-        display:block;
+        display:block; 
     }
 }
